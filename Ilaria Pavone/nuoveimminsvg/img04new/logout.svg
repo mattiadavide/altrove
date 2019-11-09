@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cecece;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 68</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="ICONE">
+      <g id="logout">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+        <polygon points="10.54 14.71 5 15.56 5 3.69 10.54 4.53 10.54 14.71"/>
+        <rect class="cls-2" x="9.34" y="9.04" width="6.45" height="1.75" rx="0.87" ry="0.87"/>
+        <circle class="cls-2" cx="10.23" cy="8.15" r="0.89"/>
+        <circle class="cls-2" cx="10.23" cy="11.67" r="0.89"/>
+        <path class="cls-2" d="M10.23,7.26c.39,0,0,1.38,0,2.74s.36,2.56,0,2.56c-.85,0-2.51-1.5-3.29-2.24a.57.57,0,0,1,0-.82C7.71,8.75,9.37,7.26,10.23,7.26Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        opacity: 0.7;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 40px;
+        font-family: ProductSans-Bold, Product Sans;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #002a2d;
+      }
+
+      .cls-5 {
+        fill: #004b54;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 78</title>
+  <g class="cls-1">
+    <g id="Livello_2" data-name="Livello 2">
+      <g id="_03_mappa0zoom" data-name="03_mappa0zoom">
+        <g>
+          <image class="cls-2" width="68" height="68" xlink:href="data:image/png;base64,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"/>
+          <circle class="cls-3" cx="33.61" cy="33.95" r="27.61"/>
+        </g>
+        <text class="cls-4" transform="translate(24.29 47.17)">3</text>
+        <text class="cls-5" transform="translate(21.07 46.17)">3</text>
+      </g>
+    </g>
+  </g>
+</svg>

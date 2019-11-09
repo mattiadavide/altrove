@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe029;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ececec;
+        stroke-miterlimit: 10;
+        stroke-width: 1.19px;
+      }
+
+      .cls-3 {
+        fill: #aaa;
+      }
+
+      .cls-4 {
+        fill: red;
+      }
+
+      .cls-5 {
+        fill: #ff1d1d;
+      }
+
+      .cls-6 {
+        fill: #a8a1a1;
+      }
+
+      .cls-7 {
+        fill: #ff5757;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 72</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="ICONE">
+      <g id="distance">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+        <path class="cls-2" d="M12.82,13.84s-5.26-.57-7-1a1,1,0,0,1,.09-2L9,10c2.25-.67,1.38-2.26.35-2.35a15.53,15.53,0,0,0-3.62.55"/>
+        <g id="places">
+          <rect class="cls-3" x="5.49" y="4.97" width="0.43" height="3.88" rx="0.21" ry="0.21"/>
+          <circle class="cls-4" cx="5.7" cy="4.98" r="1.44"/>
+          <path class="cls-5" d="M6.6,4a1.68,1.68,0,0,1,.05.68c-.05.24-.54.49-.47.93,0,.22.52.11.67,0A1.28,1.28,0,0,0,7,4.55,1.47,1.47,0,0,0,6.6,4Z"/>
+          <path class="cls-6" d="M5.7,6.56a17.45,17.45,0,0,0,.1,2.08,20.65,20.65,0,0,0,0-2.08Z"/>
+        </g>
+        <g id="iìm_here" data-name="iìm here">
+          <circle class="cls-4" cx="12.65" cy="11.18" r="2.33"/>
+          <circle class="cls-7" cx="12.65" cy="11.18" r="1.56"/>
+          <circle class="cls-4" cx="12.65" cy="14.18" r="0.46"/>
+          <path class="cls-4" d="M12.2,14.18a1.2,1.2,0,0,0-.14-.54,2.66,2.66,0,0,0-.61-.47h1.14l.07,1Z"/>
+          <path class="cls-4" d="M13.11,14.18a1.2,1.2,0,0,1,.14-.54,2.66,2.66,0,0,1,.61-.47H12.72l-.07,1Z"/>
+          <polygon class="cls-4" points="12.43 13.14 12.48 14.25 12.98 14.21 12.98 13.1 12.43 13.14"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

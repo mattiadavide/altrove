@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff931d;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 66</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="ICONE">
+      <g id="language">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+        <circle class="cls-2" cx="9.97" cy="9.71" r="4.63" transform="translate(-1.13 1.31) rotate(-7.13)"/>
+        <path class="cls-2" d="M7.22,13.59a.8.8,0,1,1-.89-.69A.8.8,0,0,1,7.22,13.59Z"/>
+        <path class="cls-2" d="M5.74,13.28a2.7,2.7,0,0,0,.16-.83,1.88,1.88,0,0,0-.09-.69l1.17,0-.37,1.71Z"/>
+        <path class="cls-2" d="M6.89,14.34a2.93,2.93,0,0,1,.87-.24,2.81,2.81,0,0,1,.78,0L8.4,13l-1.68.49Z"/>
+        <path d="M8.87,11.65h0a.37.37,0,0,0,.36-.27L10,8.65V7.79h0a.52.52,0,0,0-.5.36l-1,3A.37.37,0,0,0,8.87,11.65Z"/>
+        <path d="M11.1,11.65h0a.37.37,0,0,1-.36-.27L10,8.65V7.79h0a.52.52,0,0,1,.5.36l1,3A.37.37,0,0,1,11.1,11.65Z"/>
+        <rect x="9.17" y="9.96" width="1.7" height="0.48"/>
+      </g>
+    </g>
+  </g>
+</svg>

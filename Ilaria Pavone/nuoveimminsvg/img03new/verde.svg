@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111.46" height="102.47" viewBox="0 0 111.46 102.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6dba4c;
+      }
+
+      .cls-2 {
+        font-size: 21px;
+        fill: #fff;
+        font-family: ProductSans-Regular, Product Sans;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 51</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="OK_I_M_HERE_DOVE_ANDIAMO_" data-name="OK_I&apos;M HERE/DOVE ANDIAMO?">
+      <g id="Duomo_giallo" data-name="Duomo giallo">
+        <path id="let_sgoICON" data-name="let&apos;sgoICON" class="cls-1" d="M111.17,55.38C112.1,69.6,104.6,77.77,93,82.48a128.69,128.69,0,0,0-23.2,12.46,44.75,44.75,0,0,1-17.88,7.24C42.34,103.71,35.54,99,30.74,91.87c-6.38-9.48-14.09-17.62-22-25.73C3.84,61.08.44,54.95,0,47.6-.62,35,5.69,25.54,16.61,21.7,28.89,17.39,39.33,10.44,50.4,4.25,63-2.8,73.82-1,83.83,9.16,93.07,18.56,100,29.8,107.38,40.58,110.55,45.18,112.16,50.49,111.17,55.38Z"/>
+        <g id="Let_s_go_text" data-name="Let’s go! text">
+          <text class="cls-2" transform="translate(18.06 57.91)">L<tspan class="cls-3" x="10.46" y="0">e</tspan><tspan class="cls-4" x="21.4" y="0">t</tspan><tspan class="cls-5" x="28.83" y="0">’</tspan><tspan class="cls-4" x="32.65" y="0">s </tspan><tspan class="cls-6" x="46.83" y="0">g</tspan><tspan class="cls-4" x="58.82" y="0">o!</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

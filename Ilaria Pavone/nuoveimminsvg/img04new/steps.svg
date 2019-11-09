@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a4ff;
+      }
+
+      .cls-2 {
+        fill: #ececec;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 73</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="ICONE">
+      <g id="steps">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+        <ellipse class="cls-2" cx="12.56" cy="10.2" rx="2.3" ry="3.25"/>
+        <ellipse class="cls-2" cx="12.61" cy="13.4" rx="1.75" ry="2.47"/>
+        <rect class="cls-1" x="9.82" y="11.91" width="5.05" height="0.89"/>
+        <ellipse class="cls-2" cx="6.93" cy="6.69" rx="2.3" ry="3.25"/>
+        <ellipse class="cls-2" cx="6.97" cy="9.89" rx="1.75" ry="2.47"/>
+        <rect class="cls-1" x="4.19" y="8.39" width="5.05" height="0.9"/>
+      </g>
+    </g>
+  </g>
+</svg>

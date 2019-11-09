@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00e7ff;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+
+      .cls-4 {
+        fill: #ff1d1d;
+      }
+
+      .cls-5 {
+        fill: #a8a1a1;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 56</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="ICONE">
+      <g id="places">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+        <rect class="cls-2" x="9.05" y="6.31" width="1.15" height="10.46" rx="0.57" ry="0.57"/>
+        <circle class="cls-3" cx="9.62" cy="6.34" r="3.88"/>
+        <path class="cls-4" d="M12.06,3.81a4.54,4.54,0,0,1,.14,1.84c-.14.64-1.44,1.32-1.27,2.51.09.59,1.4.31,1.82-.13A3.45,3.45,0,0,0,13,5.18,4,4,0,0,0,12.06,3.81Z"/>
+        <path class="cls-5" d="M9.62,10.62s.08,6.17.28,5.62A55.71,55.71,0,0,0,10,10.62Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

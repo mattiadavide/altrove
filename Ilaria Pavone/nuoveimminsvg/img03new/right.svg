@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.39" height="41.84" viewBox="0 0 31.39 41.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 60</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="inizio_navigazione" data-name="inizio navigazione">
+      <g id="icon_turn_right" data-name="icon_turn right">
+        <path class="cls-1" d="M17.36,23.8c-2.07-1.56-.5-22.07-.3-23.13.68-3.49,13,8.21,13,8.21a4.27,4.27,0,0,1,0,6.19S19.23,25.21,17.36,23.8Z"/>
+        <path class="cls-1" d="M7.15,8.4H18a0,0,0,0,1,0,0v7.15a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A7.15,7.15,0,0,1,7.15,8.4Z"/>
+        <path class="cls-1" d="M0,28.13V15.55H11.15c-4.19,0-4.07,4.2-4.07,4.2Z"/>
+        <path class="cls-1" d="M0,19.75H7.08a0,0,0,0,1,0,0V38.31a3.54,3.54,0,0,1-3.54,3.54h0A3.54,3.54,0,0,1,0,38.31V19.75a0,0,0,0,1,0,0Z"/>
+        <path class="cls-1" d="M16.76,15.55H18a0,0,0,0,1,0,0v8.4a0,0,0,0,1,0,0H16.76a4.2,4.2,0,0,1-4.2-4.2v0A4.2,4.2,0,0,1,16.76,15.55Z"/>
+        <path class="cls-1" d="M16.76,0H18a0,0,0,0,1,0,0V8.4a0,0,0,0,1,0,0H16.76a4.2,4.2,0,0,1-4.2-4.2v0A4.2,4.2,0,0,1,16.76,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
