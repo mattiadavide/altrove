@@ -25,10 +25,18 @@
 <button onclick="window.location.href='go.html'" style=" z-index: 99; background-size: contain; background-color: transparent; background-repeat: no-repeat; border: none; background-image: url(img/letsverde.png); width: 300px; height: 300px; "></button> </div>
     
         
-    
+ <script>  
 
-
-
+var a=document.getElementsByTagName("a");
+for(var i=0;i<a.length;i++) {
+    if(!a[i].onclick && a[i].getAttribute("target") != "_blank") {
+        a[i].onclick=function() {
+                window.location=this.getAttribute("href");
+                return false; 
+        }
+    }
+}
+</script> 
 
 </body>
 </html>
