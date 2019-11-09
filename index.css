@@ -4,11 +4,11 @@
   font-size: 3em;
 }
 
-#slide1 {background-image: url(img/nuoveimminsvg/img01new/001.svg); background-size: cover; background-repeat: no-repeat}
-#slide2 {background-image: url(img/nuoveimminsvg/img01new/002.svg); background-size: cover;background-repeat: no-repeat}
-#slide3 {background-image: url(img/nuoveimminsvg/img01new/003.svg); background-size: cover;background-repeat: no-repeat}
-#slide4 {background-image: url(img/nuoveimminsvg/img01new/004.svg); background-size: cover;background-repeat: no-repeat}
-#slide5 {background-image: url(img/nuoveimminsvg/img01new/005.svg); background-size: cover;background-repeat: no-repeat}
+#slide1 {background-image: url(img/nuoveimminsvg/img01new/001.svg); background-size: contain; background-repeat: no-repeat}
+#slide2 {background-image: url(img/nuoveimminsvg/img01new/002.svg); background-size: contain;background-repeat: no-repeat}
+#slide3 {background-image: url(img/nuoveimminsvg/img01new/003.svg); background-size: contain;background-repeat: no-repeat}
+#slide4 {background-image: url(img/nuoveimminsvg/img01new/004.svg); background-size: contain;background-repeat: no-repeat}
+#slide5 {background-image: url(img/nuoveimminsvg/img01new/005.svg); background-size: contain;background-repeat: no-repeat}
 #slide6 {background-image: url(img/wetransfer-6b0917/01concerchi.svg); background-size: cover;background-repeat: no-repeat}
 #slide7 {background-image: url(img/wetransfer-6b0917/02concerchi.svg); background-size: cover;background-repeat: no-repeat}
 #slide8 {background-image: url(img/wetransfer-6b0917/03concerchi.svg); background-size: cover;background-repeat: no-repeat}
