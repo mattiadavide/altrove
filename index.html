@@ -5,9 +5,10 @@
 
 <link rel="stylesheet" href="fullpage.css">
     <link rel="stylesheet" href="index.css">
-<script src="jquery.js"></script>       
+<script src="jquery.js"></script>
+    <script src="https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/vendors/scrolloverflow.min.js.map"></script>
 <script src="fullpage.js"></script>
- <script src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/vendors/jquery.slimscroll.min.js"></script>   
+ 
    <script>document.addEventListener("DOMContentLoaded", function(event) {
   if (window.DeviceOrientationEvent) {
     document.getElementById("notice").innerHTML =
@@ -163,6 +164,22 @@ z-index: 1000;
 
   
 }
+        .sidebar4{
+  position: fixed;
+  top: 100vh;
+  
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  transition: .3s;
+border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+z-index: 1000;
+
+  
+}
 
 
 
@@ -204,7 +221,10 @@ z-index: 1000;
         overflow: scroll;
 }  
     
- 
+ .sidebar4.active{
+  
+    top: 90px;
+}   
 .sidebarBtn.active{
   background-image: url(img/youverde.svg);
     
@@ -565,7 +585,7 @@ right: 0;margin-top: 50vh; background-size: contain; background-color: transpare
 
         </div>   
         
-          <div class="sidebar" style="overflow: hidden;" >
+          <div class="sidebar" style="overflow: scroll;" >
    <button class="sidebarBtn" style="background-repeat: no-repeat;  margin-left: 60vw; margin-top: 4vw; background-size: contain; background-color: transparent; border: none; width: 150px; height: 150px; z-index: 999 "></button>           
  <p style="margin-top: 60px; margin-bottom: 150px; margin-left: 310px;font-size: 60px; font-family: uno;  color: #00727C; text-align: center; ">You</p> 
    
@@ -597,11 +617,13 @@ right: 0;margin-top: 50vh; background-size: contain; background-color: transpare
          </div> 
             </a>
 <br><br>
-        <div style="display: table; width: 500px; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin-left: 180px">
+        
+              <a class="community">
+              <div style="display: table; width: 500px; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin-left: 180px">
     
    
          <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Community</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/community.png" style="height: 70px; margin-right: -43px"></div>
-         </div> 
+                  </div> </a>
 </div>
          
       <div class="sidebar2"><a class="light"><img src="img/enlightened.png" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:center">Enlightened places</p><div class="enlight" style="width: 100vw; height: 30vh; margin: auto; margin-top: 100px">     
@@ -631,6 +653,44 @@ Inizialmente accanto alle case igloo si trovavano due case “a fungo”, entram
       
       
       </div>
+        
+        
+        <div class="sidebar4"><a class="community"><img src="img/community.png" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:right;margin-right: 120px;">Community</p><div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
+    
+   
+         <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Publish</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/" style="height: 70px; margin-right: -53px"></div>
+                  </div><br><br>
+          <div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
+    
+   
+         <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Your area</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/" style="height: 70px; margin-right: -53px"></div>
+                  </div><br><br>
+            <div  style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 60px; padding: 10px; margin: auto;"><div class="fp-scrollable" style="height: 100vh">
+                
+                
+                <br> <br>
+               <div style="border-radius: 30px; background-color: white; width: 70vw; margin: auto; padding: 24px; ">
+                <p style="text-align: left; font-size: 60px; font-family: uno; ">82%</p>
+                   <div style="border-radius: 30px; background-color: #faf0ed; width: 80vw; height: 200px;  overflow: hidden; text-overflow: ellipsis; display: table-cell; vertical-align: middle"><p style="font-family: uno; text-align: justify; padding: 18px; font-size: 28px; ">Nel 1950 lo studio BBPR (fondato da Gian Luigi Banfi, Ludovico Barbiano di Belgioioso, Enrico Peressutti ed Ernesto Nathan Rogers) riceve l’incarico di progettare un complesso..
+</p></div>
+                
+                
+                
+                </div> 
+                
+                
+                
+                
+                
+                </div>
+    
+   
+         
+                  </div><br><br>
+          
+         </div> 
+    
+        
         
           </div>
         
@@ -724,7 +784,10 @@ Inizialmente accanto alle case igloo si trovavano due case “a fungo”, entram
       
                  
                  
-                 
+                       $('.community').click(function(){
+   $('.sidebar4').toggleClass('active');
+   
+ });           
                  
                  
                  
