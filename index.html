@@ -8,10 +8,13 @@
 <script src="jquery.js"></script>       
 <script src="fullpage.js"></script>
  <script src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/vendors/jquery.slimscroll.min.js"></script>   
-<script>document.addEventListener("DOMContentLoaded", function (event) {
+<script>
+
+    
+document.addEventListener("DOMContentLoaded", function (event) {
 
   if (window.DeviceOrientationEvent) {
-    document.getElementById("notice").innerHTML = "";
+    document.getElementById("notice").innerHTML = "SUPPORTED on this device / browser...";
     window.addEventListener('deviceorientation', function (eventData) {
 
       // gamma: Tilting the device from left to right. Tilting the device to the right will result in a positive value.
@@ -44,7 +47,11 @@
     compassDisc.style.transform = "rotate(" + dir + "deg)";
   }
 
-});    </script>
+});
+    
+    
+    
+</script>
 </head> 
     
   
@@ -264,7 +271,7 @@ z-index: 1000;
 
         </div>
     
-        <div class="parte2">
+        <div class="parte2" style="z-index: 99">
         <div style="width: 80vw; margin: auto; margin-top: 30vh">
     <p style="font-family: due; color:#00727C; font-size: 60px; margin-top: 6vh;">Hello, welcome</p>
     <br>
@@ -520,9 +527,7 @@ z-index: 1000;
 		<div class="arrow"></div>
 		<div class="disc" id="compassDiscImg"></div>
 	</div>
-	<div class="orientation-data">
-		
-	</div>
+	
       
       
 
