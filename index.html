@@ -8,50 +8,7 @@
 <script src="jquery.js"></script>       
 <script src="fullpage.js"></script>
  <script src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/vendors/jquery.slimscroll.min.js"></script>   
-<script>
 
-    
-document.addEventListener("DOMContentLoaded", function (event) {
-
-  if (window.DeviceOrientationEvent) {
-    document.getElementById("notice").innerHTML = "SUPPORTED on this device / browser...";
-    window.addEventListener('deviceorientation', function (eventData) {
-
-      // gamma: Tilting the device from left to right. Tilting the device to the right will result in a positive value.
-      var tiltLR = eventData.gamma;
-
-      // beta: Tilting the device from the front to the back. Tilting the device to the front will result in a positive value.
-      var tiltFB = eventData.beta;
-
-      // alpha: The direction the compass of the device aims to in degrees.
-      var dir = eventData.alpha;
-
-      // Call the function to use the data on the page.
-      // Roep de functie op om de data op de pagina te gebruiken.
-      deviceOrientationHandler(tiltLR, tiltFB, dir);
-    }, false);
-  } else {
-    document.getElementById("notice").innerHTML = "NOT SUPPORTED on this device / browser..."
-  };
-
-  function deviceOrientationHandler(tiltLR, tiltFB, dir) {
-    document.getElementById("tiltLR").innerHTML = Math.ceil(tiltLR);
-    document.getElementById("tiltFB").innerHTML = Math.ceil(tiltFB);
-    document.getElementById("direction").innerHTML = Math.ceil(dir);
-
-    // Rotate the disc of the compass.
-    // Laat de kompas schijf draaien.
-    var compassDisc = document.getElementById("compassDiscImg");
-    compassDisc.style.webkitTransform = "rotate(" + dir + "deg)";
-    compassDisc.style.MozTransform = "rotate(" + dir + "deg)";
-    compassDisc.style.transform = "rotate(" + dir + "deg)";
-  }
-
-});
-    
-    
-    
-</script>
 </head> 
     
   
@@ -77,16 +34,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-.compass .disc {
-	position: absolute;
-	top: 40vh;
-	left: 36vw;
-	background: url('img/torcia.png');
-	width: 260px;
-	height: 500px;
-	background-size: 100%;
-    background-color: transparent;
-}
+
 
 
 .sidebar{
@@ -186,35 +134,10 @@ z-index: 1000;
 }
 
     
-    .root {
-  width: 90vw;
-  margin: 0 auto;
-}
-
-.scrolling-wrapper-flexbox {
-  display: flex;
- 
- 
-}
-
-.card {
-  padding: 5px 10px;
-  margin: 10px;
-  border-radius: 5px;
- 
-}
     
-    .card img {
- height: 25vh;
- 
-}
 
-.scrolling-wrapper, .scrolling-wrapper-flexbox {
 
-  width: 100%;
-  
-  }
-}
+
     
     </style>
     
@@ -303,7 +226,7 @@ z-index: 1000;
         
         
         
-    <div class="go">
+    <div class="go" style="z-index: 99">
         <img src="img/imhere.svg" style="z-index: 0;">
     <button style="position: absolute;background-repeat: no-repeat; left: 3vw; top:4vh; background-size: contain; background-color: transparent; border: none; background-image: url(img/setting.png); width: 150px; height: 150px"></button>    
  <button class="sidebarBtn"  style="position: absolute;background-repeat: no-repeat;  left: 80vw; top: 4vh; background-size: contain; background-color: transparent; border: none;  width: 150px; height: 150px; z-index: 999  "></button> 
