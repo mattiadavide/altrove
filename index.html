@@ -16,10 +16,10 @@
       "deviceorientation",
       function(eventData) {
         // gamma: Tilting the device from left to right. Tilting the device to the right will result in a positive value.
-        var tiltLR = eventData.gamma;
+        var tiltFB = eventData.gamma;
 
         // beta: Tilting the device from the front to the back. Tilting the device to the front will result in a positive value.
-        var tiltFB = eventData.beta;
+        var tiltLR = eventData.beta;
 
         // alpha: The direction the compass of the device aims to in degrees.
         var dir = eventData.alpha;
