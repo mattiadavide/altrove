@@ -49,30 +49,17 @@
     <style>
     
  
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 
-body {
-  margin: 30px;
-  background: rgb(15, 15, 15);
-  color: rgb(134, 254, 25);
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
 
 .compass {
   position: relative;
   width: 260px;
   height: 260px;
   margin: 20px auto;
-  background: #222;
+
   padding: 20px;
   border-radius: 40px;
-  border: 5px solid #444;
+
 }
 
 .compass .disc {
@@ -82,41 +69,28 @@ body {
   background: url("img/torcia.png");
   width: 260px;
   height: 260px;
-  background-size: 100%;
-}
-
-.compass .arrow {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-  
-  width: 260px;
-  height: 260px;
-  background-size: contain;
+   background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 
     
     </style>
     
 <body>
     
-    <h1>compass/gyro</h1>
+  
 
-	<div id="notice"></div>
+	
 
 	<div class="compass">
-		<div class="arrow"></div>
+		
 		<div class="disc" id="compassDiscImg"></div>
 	</div>
 
-	<div class="orientation-data">
-		<div>tiltFB: <span id="tiltFB"></span></div>
-		<div>tiltLR: <span id="tiltLR"></span></div>
-		<div>direction: <span id="direction"></span></div>
-	</div>    
+	 
     
 
 
