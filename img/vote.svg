@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff740d;
+      }
+
+      .cls-2 {
+        fill: #e0ff00;
+      }
+
+      .cls-3 {
+        fill: #ededed;
+      }
+
+      .cls-4 {
+        fill: #dbc6c6;
+      }
+
+      .cls-5 {
+        fill: red;
+      }
+
+      .cls-6 {
+        fill: #92ff1f;
+      }
+
+      .cls-7 {
+        fill: #5968c1;
+      }
+
+      .cls-8 {
+        fill: #ff12d2;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 347</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="community">
+      <g id="time">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+      </g>
+      <g id="VOTE">
+        <circle class="cls-2" cx="9.62" cy="3.27" r="0.77"/>
+        <rect class="cls-3" x="5.92" y="3.27" width="7.4" height="13.48" rx="2.17" ry="2.17"/>
+        <rect class="cls-4" x="6.66" y="6.9" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="8.83" y="6.9" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-5" x="10.39" y="4.56" width="2.19" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-6" x="10.99" y="6.9" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="6.66" y="9.05" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="8.83" y="9.05" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-6" x="10.99" y="9.05" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="6.66" y="11.21" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="8.83" y="11.21" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-7" x="10.99" y="11.21" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="6.66" y="13.36" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-4" x="8.83" y="13.36" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+        <rect class="cls-8" x="10.99" y="13.36" width="1.59" height="1.59" rx="0.79" ry="0.79"/>
+      </g>
+    </g>
+  </g>
+</svg>
