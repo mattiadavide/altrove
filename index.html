@@ -150,8 +150,8 @@ z-index: 1000;
 
 .scrolling-wrapper-flexbox {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
+ 
+ 
 }
 
 .card {
@@ -293,7 +293,7 @@ z-index: 1000;
         
 </div>
             <br><br>
-    <div style="height: 30vh; overflow-y: scroll; margin-left: 60px">       
+    <div class="fp-scrollable" style="height: 30vh; margin-left: 60px">       
             
     <a id="home"> <div style="display: table" >
     
@@ -554,7 +554,7 @@ z-index: 1000;
     
       <br>
     
-      <div class="root">
+      <div class="root fp-scrollable">
   <div class="scrolling-wrapper-flexbox">
     <div class="card"><img src="img/giornalisti/Risorsa%20206.png"></div>
     <div class="card"><img src="img/giornalisti/Risorsa%20207.png"></div>
@@ -573,7 +573,7 @@ z-index: 1000;
         
         
         
-        
+
         
         
         
@@ -586,7 +586,16 @@ z-index: 1000;
  slidesNavigation: true,                    
      scrollOverflow: true,                
                      
-});</script>
+});
+        
+        $('.fp-scrollable').slimScroll({
+    alwaysVisible: true,
+    color: 'black',
+    size: '10px',
+    allowPageScroll: true,
+});
+        
+        </script>
         
         
         
