@@ -1,7 +1,5 @@
 <html>
-<head>  
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
+<head>   
 <link rel="stylesheet" href="fullpage2.css">
     <link rel="stylesheet" href="index.css">
 <script src="jquery.js"></script>       
@@ -73,7 +71,7 @@ z-index: 1000;
 
     .giornalisti img{height: 25vh; display: inline-block; margin: 25px}
     
-    .giornalisti {height: 28vh; width: 90vw ; overflow: auto; white-space:nowrap; margin: auto;}
+    .giornalisti {height: 28vh; width: 90vw ;white-space:nowrap; overflow-x: auto;}
     .sidebar3{ 
   position: fixed;
   top: 100vh;
@@ -140,7 +138,7 @@ z-index: 1000;
     </style>
     
     
-    <body style="background-image: url(img/mappa_colorinormali.svg); background-size: cover">
+    <body style="background-image: url(img/mappa_colorinormali.svg)">
       
 
 
@@ -195,14 +193,18 @@ z-index: 1000;
       <div class="sidebar3"><p style="font-family: uno;color: #00727C; font-size: 40px; text-align:center">Villaggio dei giornalisti, MI</p>
       
       
-      <div class="giornalisti" ><div style="width: 100%"><img src="img/giornalisti/Risorsa%20206.png"><img src="img/giornalisti/Risorsa%20207.png"><img src="img/giornalisti/Risorsa%20208.png"><img src="img/giornalisti/Risorsa%20209.png"><img src="img/giornalisti/Risorsa%20210.png"></div></div>
+      <div class="giornalisti" style=" margin: auto; border-radius: 30px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); "><img  src="img/giornalisti/Risorsa%20206.png"><img  src="img/giornalisti/Risorsa%20207.png"><img data-enlargable src="img/giornalisti/Risorsa%20208.png"><img src="img/giornalisti/Risorsa%20209.png"><img  src="img/giornalisti/Risorsa%20210.png"></div>
       <br>
-  
+      <video style="width: 90vw; border-radius: 30px" controls>
+  <source src="img/6nov_si.mp4" type="video/mp4">
+
+  Your browser does not support HTML5 video.
+</video>
+      
       
       
       
       </div>
-   
       
       
       <div  style="position: absolute; width: 300px; margin-left: 34vw; margin-top: 80vh; z-index: 999">
@@ -217,7 +219,10 @@ z-index: 1000;
 		<div class="arrow"></div>
 		<div class="disc" id="compassDiscImg"></div>
 	</div>
-
+	<div class="orientation-data">
+		
+	</div>
+      
       
 
 
