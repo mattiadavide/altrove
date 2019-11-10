@@ -8,7 +8,47 @@
 <script src="jquery.js"></script>       
 <script src="fullpage.js"></script>
  <script src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/vendors/jquery.slimscroll.min.js"></script>   
+   <script>document.addEventListener("DOMContentLoaded", function(event) {
+  if (window.DeviceOrientationEvent) {
+    document.getElementById("notice").innerHTML =
+      "SUPPORTED on this device / browser...";
+    window.addEventListener(
+      "deviceorientation",
+      function(eventData) {
+        // gamma: Tilting the device from left to right. Tilting the device to the right will result in a positive value.
+        var tiltLR = eventData.gamma;
 
+        // beta: Tilting the device from the front to the back. Tilting the device to the front will result in a positive value.
+        var tiltFB = eventData.beta;
+
+        // alpha: The direction the compass of the device aims to in degrees.
+        var dir = eventData.alpha;
+
+        // Call the function to use the data on the page.
+        // Roep de functie op om de data op de pagina te gebruiken.
+        deviceOrientationHandler(tiltLR, tiltFB, dir);
+      },
+      false
+    );
+  } else {
+    document.getElementById("notice").innerHTML =
+      "NOT SUPPORTED on this device / browser...";
+  }
+
+  function deviceOrientationHandler(tiltLR, tiltFB, dir) {
+    document.getElementById("tiltLR").innerHTML = Math.ceil(tiltLR);
+    document.getElementById("tiltFB").innerHTML = Math.ceil(tiltFB);
+    document.getElementById("direction").innerHTML = Math.ceil(dir);
+
+    // Rotate the disc of the compass.
+    // Laat de kompas schijf draaien.
+    var compassDisc = document.getElementById("compassDiscImg");
+    compassDisc.style.webkitTransform = "rotate(" + dir + "deg)";
+    compassDisc.style.MozTransform = "rotate(" + dir + "deg)";
+    compassDisc.style.transform = "rotate(" + dir + "deg)";
+  }
+});
+</script>
 </head> 
     
   
@@ -27,8 +67,59 @@
     .navigate {width: 0; height: 0; position: absolute; opacity: 0; z-index: 0}
     .navigate.active {width: 100%; height: 100%; opacity: 1; z-index: 99}
     
+   
+    html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 30px;
+ 
+  color: transparent;
+ 
+  text-align: center;
+}
     
     
+    .compass {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 20px auto;
+  
+  padding: 20px;
+  border-radius: 40px;
+ 
+}
+
+.compass .disc {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: url("img/torcia.png");
+  width: 260px;
+  height: 260px;
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.compass .arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  
+  width: 260px;
+  height: 260px;
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
@@ -445,18 +536,26 @@ z-index: 1000;
   
       <button class="let" style="position: absolute; margin-top: 79vh; margin-left: -65vw; background-size: contain; background-color: transparent; background-repeat: no-repeat; border: none; background-image: url(img/Risorsa%20345.svg); width: 300px; height: 300px; "></button> 
       
-      
-         
-
-
-	<div id="notice"></div>
+       <button class="let" style="position: absolute; margin-top: 50vh; margin-left: -75vw; background-size: contain; background-color: transparent; border: none;width: 300px; height: 300px; "><div id="notice"></div>
 
 	<div class="compass">
 		<div class="arrow"></div>
 		<div class="disc" id="compassDiscImg"></div>
 	</div>
-	
+
+	<div class="orientation-data">
+		<div>tiltFB: <span id="tiltFB"></span></div>
+		<div>tiltLR: <span id="tiltLR"></span></div>
+		<div>direction: <span id="direction"></span></div>
+	</div>  </button> 
       
+         
+
+
+  
+    
+	
+  
       
 
 
