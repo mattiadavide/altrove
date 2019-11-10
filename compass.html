@@ -58,7 +58,8 @@ body {
 
 body {
   margin: 30px;
-
+  background: rgb(15, 15, 15);
+  color: rgb(134, 254, 25);
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
@@ -68,20 +69,20 @@ body {
   width: 260px;
   height: 260px;
   margin: 20px auto;
-  
+  background: #222;
   padding: 20px;
-  
- 
+  border-radius: 40px;
+  border: 5px solid #444;
 }
 
 .compass .disc {
   position: absolute;
   top: 20px;
   left: 20px;
-
+  background: url("http://dev.rvltn.eu/compass/compass.svg");
   width: 260px;
   height: 260px;
-  background-size: contain;
+  background-size: 100%;
 }
 
 .compass .arrow {
@@ -102,14 +103,20 @@ body {
     
 <body>
     
-   
+    <h1>compass/gyro</h1>
+
+	<div id="notice"></div>
 
 	<div class="compass">
 		<div class="arrow"></div>
-		
+		<div class="disc" id="compassDiscImg"></div>
 	</div>
 
-	
+	<div class="orientation-data">
+		<div>tiltFB: <span id="tiltFB"></span></div>
+		<div>tiltLR: <span id="tiltLR"></span></div>
+		<div>direction: <span id="direction"></span></div>
+	</div>    
     
 
 
