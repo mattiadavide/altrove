@@ -605,32 +605,32 @@ z-index: 1000;
              <script>
         
         
-        $('.skip').click(function(){
+        $('.skip').on('click touchstart', function (){
    $('.parte1').addClass('remove');
             $('.parte2').addClass('active');
    
  }); 
         
-         $('.sign').click(function(){
+         $('.sign').on('click touchstart', function (){
    $('.parte2').removeClass('active');
              $('.go').addClass('active');
    
  });      
      
          
-         $('.let').click(function(){
+         $('.let').on('click touchstart', function (){
    $('.go').removeClass('active');
              $('.start').addClass('active');
               $('.navigate').removeClass('active');
    
  });              
-             $('.godo').click(function(){
+             $('.godo').on('click touchstart', function (){
    $('.start').removeClass('active');
              $('.duomo').addClass('active');
    
  }); 
                  
-                            $('.naviga').click(function(){
+                            $('.naviga').on('click touchstart', function (){
    $('.duomo').removeClass('active');
              $('.navigate').addClass('active');
    
@@ -640,13 +640,13 @@ z-index: 1000;
                  
                  
                  
-                  $('.sidebarBtn').click(function(){
+                  $('.sidebarBtn').on('click touchstart', function (){
    $('.sidebar').toggleClass('active');
     $('.sidebarBtn').toggleClass('active'); 
  });
 
    
-   $('.light').click(function(){
+   $('.light').on('click touchstart', function (){
    $('.sidebar2').toggleClass('active');
     $('.light').toggleClass('active');
        $('.sidebar3').removeClass('active');
@@ -654,7 +654,7 @@ z-index: 1000;
          
  });
                  
-                   $('.enlight').click(function(){
+                   $('.enlight').on('click touchstart', function (){
    $('.sidebar3').toggleClass('active');
     $('.enlight').toggleClass('active'); 
  });
