@@ -74,7 +74,18 @@
     background-position: center;
 }
 
-
+.compass .arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  
+  width: 260px;
+  height: 260px;
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
     
     </style>
@@ -83,15 +94,14 @@
     
   
 
-	
+	<div id="notice"></div>
 
 	<div class="compass">
-		
+		<div class="arrow"></div>
 		<div class="disc" id="compassDiscImg"></div>
 	</div>
 
-	 
-    
+	
 
 
 
