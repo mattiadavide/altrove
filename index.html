@@ -122,8 +122,8 @@
     background-position: center;
 }
 
-
-
+    .godo{background-image: url(img/letsgrigio.png)}
+.godo.active{background-image: url(img/letsverde.png)}
     .arrival{
 position: absolute; top:100vh; left: 0;
 transition: .3s;
@@ -606,13 +606,13 @@ z-index: 1000;
             <br><br>
     <div class="fp-scrollable" style="height: 30vh; width: 100vw; margin-left: 60px">       
             
-    <a id="home"> <div style="display: table" >
+    <a class="on" id="home"> <div style="display: table" >
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/home.png" style="height: 60px"></div>
          <div style="display: table-cell; vertical-align: middle"><p style="font-size: 30px; font-family: uno;  color: black; margin-left: 10px">Home</p></div>
          </div></a>
         <br><br>
-       <a id="work"> 
+       <a  class="on" id="work"> 
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/work.png" style="height: 60px"></div>
@@ -622,7 +622,7 @@ z-index: 1000;
     
     </div></a>
         <br><br>
-        <a id="duomo"> 
+        <a class="on"  id="duomo"> 
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/place.png" style="height: 60px"></div>
@@ -634,7 +634,7 @@ z-index: 1000;
           
         <br><br>
         
-           <a id="centrale"> 
+           <a class="on"  id="centrale"> 
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/place.png" style="height: 60px"></div>
@@ -646,7 +646,7 @@ z-index: 1000;
            
         <br><br>
         
-        <a id="colonne">
+        <a class="on"  id="colonne">
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/favourite.png" style="height: 60px"></div>
@@ -656,7 +656,7 @@ z-index: 1000;
     
     </div></a>
     <br><br>
-           <a id="sempione">
+           <a class="on"  id="sempione">
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/favourite.png" style="height: 60px"></div>
@@ -666,7 +666,7 @@ z-index: 1000;
     
     </div></a> 
         <br><br>
-            <a id="sempione">
+            <a class="on"  id="sempione">
          <div style="display: table">
     
     <div style="display: table-cell; vertical-align: middle"><img src="img/addfavourite.png" style="height: 60px"></div>
@@ -679,7 +679,7 @@ z-index: 1000;
         </div> 
         </div>
     </div> 
-    <button class="godo" style="position: absolute; margin-top: 79vh; margin-left: -65vw; background-size: contain; background-color: transparent; background-repeat: no-repeat; border: none; background-image: url(img/letsgrigio.png); width: 300px; height: 300px; z-index: 99 "></button>
+    <button class="godo" style="position: absolute; margin-top: 79vh; margin-left: -65vw; background-size: contain; background-color: transparent; background-repeat: no-repeat; border: none; width: 300px; height: 300px; z-index: 99 "></button>
    
     
         
@@ -1479,7 +1479,11 @@ Fin dalle prime bozze di progetto i BBPR delineano una torre in cui la parte sup
                          
                  
                  
-                 
+                                  $('.on').click(function(){
+                              
+   $('.godo').addClass('active');
+   
+ });                   
                  
                  
                  
