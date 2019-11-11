@@ -181,7 +181,39 @@ z-index: 1000;
   
 }
 
+        .sidebar5{
+  position: fixed;
+  top: 100vh;
+  
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  transition: .3s;
+border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+z-index: 1000;
 
+  
+}
+    
+            .sidebar6{
+  position: fixed;
+  top: 100vh;
+  
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  transition: .3s;
+border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+z-index: 1000;
+
+  
+}
 
 .sidebarBtn{
   background-image: url(img/you.png);
@@ -225,6 +257,16 @@ z-index: 1000;
   
     top: 60px;
 }   
+    
+     .sidebar5.active{
+  
+    top: 60px;
+} 
+    
+       .sidebar6.active{
+  
+    top: 60px;
+}  
 .sidebarBtn.active{
   background-image: url(img/youverde.svg);
     
@@ -655,17 +697,21 @@ Inizialmente accanto alle case igloo si trovavano due case “a fungo”, entram
       </div>
         
         
-        <div class="sidebar4"><a class="community"><img src="img/community.png" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:right;margin-right: 120px;">Community</p><div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
+        <div class="sidebar4"><a class="community"><img src="img/community.png" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:right;margin-right: 120px;">Community</p>   <a class="publish"><div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
     
    
          <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Publish</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/publish.svg" style="height: 70px; margin-right: -60px"></div>
-                  </div><br><br>
-          <div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
+                  </div></a>    <br><br>
+         <a class="area"> <div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
     
    
          <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Your area</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/yourarea.svg" style="height: 70px; margin-right: -58px"></div>
-                  </div><br><br>
-            <div  style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 60px; padding: 10px; margin: auto;"><div class="fp-scrollable"  style="height: 60vh;">
+                  </div></a><br><br>
+            <div  style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 60px; padding: 10px; margin: auto;"><div class="fp-scrollable"  style="height: 60vh;"><div style="display: table; width: 80vw; background-color: #d2f1ed; border-radius: 80px; padding: 10px; margin: auto;">
+    
+   
+         <div style="display: table-cell; vertical-align: middle"><p style="font-family: uno; font-size: 30px; color:darkblue; text-align: right; margin-right:  10px">Vote</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/vote.svg" style="height: 70px; margin-right: -56px"></div>
+                  </div>
                 
                 
                 <br> <br>
@@ -741,6 +787,95 @@ Inizialmente accanto alle case igloo si trovavano due case “a fungo”, entram
           
          </div> 
     
+        
+        
+        
+         <div class="sidebar5"><a class="publish"><img src="img/publish.svg" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:right; margin-right: 120px">Your Area</p>   <div style="border:1px solid;border-radius: 40px;  background-color: white; border: none; width: 80vw; margin: auto; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); ">
+
+<form action="/action_page.php" style=" text-align: center;">
+<input onfocus="this.value=''" style="text-decoration: none; font-size: 30px; font-family: uno;  color: darkgray;  width: 50vw; height: 4vh; border:none; background-color: white; text-align: center; " type="text" name="FirstName" value="Title"><br>
+    
+</form>
+            
+          
+</div>
+        <br> <br> <br> <br> <br> <br>     
+      <div style="border-radius: 30px; background-color: white; width: 30vw; margin: auto; padding: 50px;         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ ">
+               <div style="border-radius: 30px; background-color: gainsboro; width: 40vw; height: 400px;  overflow: hidden; text-overflow: ellipsis; display: table-cell; vertical-align: middle"><p style="font-family: uno; text-align:center; padding: 18px; font-size: 200px; color: white ">+
+</p></div>
+                
+                
+                
+                </div>      <br> <br> <br> <br>  <br> <br>             <div style="border-radius: 30px; background-color: white; width: 70vw; margin: auto; padding: 24px;         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ ">
+                
+                   
+               
+                   <div style="border-radius: 30px; width: 80vw; height: 200px;  overflow: hidden; text-overflow: ellipsis; display: table-cell; vertical-align: middle"><form action="/action_page.php" style=" text-align: center;">
+<input onfocus="this.value=''" style="text-decoration: none; font-size: 30px; font-family: uno;  color: darkgray;  width: 50vw; height: 4vh; border:none; background-color: white; text-align: center; " type="text" name="FirstName" value="Add a description"><br>
+    
+</form>></div>
+                
+                
+                
+                </div>      
+             
+             
+              <div style="margin:auto ; margin-top: 5vh; width:25vw">
+<button  style="background-color: #d6f2ec; width: 25vw; height: 4vh; color:white; border-radius: 40px; border:none; color: #00727C; font-family: uno; font-size: 30px; z-index: 999999 ">Publish</button>  
+</div>
+              
+</div>
+          
+          
+         
+        
+             <div class="sidebar6"><a class="area"><img src="img/yourarea.svg" style="height: 70px; margin-left: 800px; margin-top: 70px"></a><br><p style="font-family: uno;color: #00727C; font-size: 60px; text-align:right; margin-right: 120px">Your Area</p><img src="img/nuoveimminsvg/img02new/email.svg" style="height: 170px; position: relative; top:0; left:120">   
+        <br> <br> <br> <br> <br> <br>     
+         <br> <br> <br> <br>  <br> <br>             
+                 
+            <div style="border-radius: 30px; background-color: white; width: 70vw; margin: auto; padding: 24px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); ">
+                <p style="text-align: left; font-size: 60px; font-family: uno; line-height: 0; ">78%</p>
+                   
+                   <div style="display: table; position: relative; top: -100; right:-300;" >
+    
+   
+         <div style="display: table-cell; vertical-align: middle"><p style="font-size: 25px; font-family: uno; margin-left: 10px; text-align: right; line-height: 0;">You</p><p style="font-family: uno; font-size: 35px; line-height: 0; color:black; ">Piazza dei Mercanti</p></div> <div style="display: table-cell; vertical-align: middle"><img src="img/youverde.svg" style="height: 70px;  margin-left: 15px"></div>
+         </div>
+                   <div style="border-radius: 30px; background-color: #faf0ed; width: 80vw; height: 200px;  overflow: hidden; text-overflow: ellipsis; display: table-cell; vertical-align: middle;         
+"><p style="font-family: uno; text-align: justify; padding: 18px; font-size: 28px; ">Piazza dei mercanti è una piazza di Milano creata come centro della vita cittadina in epoca medievale, successivamente trasformata in via dei Mercanti. Una piazza oggi poco visibile, ma comunque..
+</p></div>
+                
+                
+                
+                </div>           
+                 
+                 
+     
+             
+             
+              <div style="margin:auto ; margin-top: 5vh; width:25vw">
+<button  style="background-color: #d6f2ec; width: 25vw; height: 4vh; color:white; border-radius: 40px; border:none; color: #00727C; font-family: uno; font-size: 30px; z-index: 999999 ">Publish</button>  
+</div>
+              
+</div>    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
           </div>
@@ -841,9 +976,18 @@ Inizialmente accanto alle case igloo si trovavano due case “a fungo”, entram
  });           
                  
                  
+                           $('.publish').click(function(){
+                              
+   $('.sidebar5').toggleClass('active');
+   
+ });           
+                    
                  
-                 
-                 
+                           $('.area').click(function(){
+                              
+   $('.sidebar6').toggleClass('active');
+   
+ });                 
                  
                  
                  
