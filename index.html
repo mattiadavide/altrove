@@ -124,9 +124,25 @@
 
 
 
+    .arrival{
+position: absolute; top:100vh; left: 0;
+transition: .3s;
+       
+    
 
 
+  
+}
 
+.arrival.active{
+position: absolute; top:25vh; left: 0;
+transition: .3s;
+       
+    
+
+
+  
+}
 
 
 
@@ -572,13 +588,13 @@ z-index: 1000;
     <img src="img/imhere.svg" style="z-index: 0;">
     <button style="position: absolute;background-repeat: no-repeat; left: 3vw; top:4vh; background-size: contain; background-color: transparent; border: none; background-image: url(img/setting.png); width: 150px; height: 150px"></button>    
  <button class="sidebarBtn"  style="position: absolute;background-repeat: no-repeat;  left: 80vw; top: 4vh; background-size: contain; background-color: transparent; border: none;  width: 150px; height: 150px; z-index: 999  "></button> 
-    <div style="height:50vh; width: 100vw; position: absolute; top:25vh; left: 0; background-color: transparent;">
+    <div class="arrival" style="height:50vh; width: 100vw;  background-color: transparent;">
         
         
         
         
         
-        <div style="height: 50vh; width: 90vw; background-color: white; margin: auto; border-radius: 40px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); overflow: hidden;"> <br><br><br> <p style="margin-left: 50px;font-size: 40px; font-family: uno;  color: red; ">Arrival</p> <div style="border:1px solid;border-radius: 40px;  background-color: lightgray; border: none; width: 80vw; margin: auto; ">
+        <div  style="height: 50vh; width: 90vw; background-color: white; margin: auto; border-radius: 40px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); overflow: hidden;"> <br><br><br> <p style="margin-left: 50px;font-size: 40px; font-family: uno;  color: red; ">Arrival</p> <div style="border:1px solid;border-radius: 40px;  background-color: lightgray; border: none; width: 80vw; margin: auto; ">
         
 <img src="img/search.png" style="position: absolute; height: 3vh; margin-left: 5vw; margin-top: 0.5vh">
 <form action="/action_page.php" style=" text-align: center;">
@@ -1359,6 +1375,7 @@ Fin dalle prime bozze di progetto i BBPR delineano una torre in cui la parte sup
    $('.go').removeClass('active');
              $('.start').addClass('active');
               $('.navigate').removeClass('active');
+              $('.arrival').addClass('active');
    
  });              
              $('.godo').click(function(){
