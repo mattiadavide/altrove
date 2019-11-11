@@ -50,17 +50,7 @@
   }
 });
        
-// Saves the offset when the user clicks the input
-let initialOffset = $('body').scrollTop();
-$('input, textarea, select').focus(function(e) {
-    let offset = $(e.target).offset();
-    initialOffset = $('body').scrollTop();
-    $('body').scrollTop(offset.top-100);
-});
-$('input, textarea, select').focusout(function(e) {
-    // Reset to the initial offset
-    $('body').scrollTop(initialOffset);
-});
+
 </script>
 </head> 
     
@@ -464,7 +454,7 @@ z-index: 1000;
     </style>
     
     
-    <body > 
+    <body style="position: relative" > 
         
     <div id="fullpage">
     <div class="parte1">
