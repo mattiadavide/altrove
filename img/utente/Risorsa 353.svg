@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="19.24" viewBox="0 0 19.24 19.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1adc;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 353</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="scorre_community" data-name="scorre community">
+      <g id="time">
+        <circle class="cls-1" cx="9.62" cy="9.62" r="9.62"/>
+      </g>
+      <g id="l">
+        <polyline class="cls-2" points="7.05 6.17 7.05 13.07 12.19 13.07"/>
+      </g>
+    </g>
+  </g>
+</svg>
