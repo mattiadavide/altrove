@@ -50,13 +50,17 @@
   }
 });
        
-       $('input[type="text"]').blur(function() {
-  setTimeout(function() {
-    if (!$(document.activeElement).is('input[type="text"]')) {
-      $(window).scrollTop(0,0);
-    }
-  }, 0);
-}); 
+// Saves the offset when the user clicks the input
+let initialOffset = $('body').scrollTop();
+$('input, textarea, select').focus(function(e) {
+    let offset = $(e.target).offset();
+    initialOffset = $('body').scrollTop();
+    $('body').scrollTop(offset.top-100);
+});
+$('input, textarea, select').focusout(function(e) {
+    // Reset to the initial offset
+    $('body').scrollTop(initialOffset);
+});
 </script>
 </head> 
     
