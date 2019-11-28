@@ -9,11 +9,15 @@
 #slide3 {background-image: url(img/nuoveimminsvg/img01new/003.svg); background-size: contain;background-repeat: no-repeat}
 #slide4 {background-image: url(img/nuoveimminsvg/img01new/004.svg); background-size: contain;background-repeat: no-repeat}
 #slide5 {background-image: url(img/nuoveimminsvg/img01new/005.svg); background-size: contain;background-repeat: no-repeat}
-#slide6 {background-image: url(img/wetransfer-6b0917/01concerchi.svg); background-size: contain;background-repeat: no-repeat}
-#slide7 {background-image: url(img/wetransfer-6b0917/02concerchi.svg); background-size: contain;background-repeat: no-repeat}
-#slide8 {background-image: url(img/wetransfer-6b0917/03concerchi.svg); background-size: contain;background-repeat: no-repeat}
+#slide6 {background-image: url(img/wetransfer-6b0917/01concerchi.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
+#slide7 {background-image: url(img/wetransfer-6b0917/02concerchi.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
+#slide8 {background-image: url(img/wetransfer-6b0917/03concerchi.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
 
+.go {background-image: url(img/imhere.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
 
+.start {background-image: url(img/imhere.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
+
+.navigate {background-image: url(img/mappa_colorinormali.svg); background-size: cover; background-position: center;background-repeat: no-repeat}
 a {color: gray;
    text-decoration: none;}
 
